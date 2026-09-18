@@ -9,34 +9,210 @@ const choreographers = [
   { name: 'Choreographer Eight', zh: '编舞老师八', role: 'Finale · 终曲' }
 ];
 
-const seasonInfo = {
-  spring: { mark: '春', label: 'Spring · 春' },
-  summer: { mark: '夏', label: 'Summer · 夏' },
-  autumn: { mark: '秋', label: 'Autumn · 秋' },
-  winter: { mark: '冬', label: 'Winter · 冬' }
-};
-
 const danceTitles = [
-  ['Copycat', ' 跟风'], ['Petals in the Wind', '风中花瓣'], ['Little Waltz', '小圆舞曲'], ['Garden of Dreams', '梦之花园'], ['Awakening', '初醒'], ['Bloom', '绽放'],
+  ['Copycat', '跟风'], ['Petals in the Wind', '风中花瓣'], ['Little Waltz', '小圆舞曲'], ['Garden of Dreams', '梦之花园'], ['Awakening', '初醒'], ['Bloom', '绽放'],
   ['Sunlit Steps', '日光之舞'], ['Sea Glass', '海之琉璃'], ['Radiance', '光芒'], ['Midsummer Joy', '盛夏之喜'], ['Azure', '蔚蓝'], ['Golden Hour', '金色时刻'],
   ['Turning Leaves', '叶落旋舞'], ['Harvest Moon', '秋月'], ['Ember', '余烬'], ['Amber Waltz', '琥珀圆舞曲'], ['Passing Seasons', '流转之季'], ['Russet', '赭红'],
   ['Snowfall', '初雪'], ['Stillness', '静'], ['Crystal Waltz', '水晶圆舞曲'], ['Winter Sky', '冬日之空'], ['Quiet Stars', '寂星'], ['Grace in Motion', '动中之恩']
 ];
 
 const schools = ['Agapé Music & Ballet School', 'Pink Ballet Studio', 'Victoria Dance Arts'];
+const levels = ['Pre-Primary', 'Grade 1–2', 'Grade 3–4', 'Grade 5+', 'Open / Ensemble'];
 
-const dances = danceTitles.map((title, i) => {
-  const season = ['spring','summer','autumn','winter'][Math.floor(i / 6)];
-  return {
-    number: i + 1,
-    en: title[0],
-    zh: title[1],
-    season,
-    school: schools[i % 3],
-    level: ['Pre-Primary', 'Grade 1–2', 'Grade 3–4', 'Grade 5+', 'Open / Ensemble'][i % 5],
-    choreographer: choreographers[i % choreographers.length].name
-  };
-});
+const dances = [
+  {
+    number: 1,
+    en: 'Copycat',
+    zh: '跟风',
+    school: 'Victoria Dance Arts',
+    level: 'Advanced',
+    choreographer: 'Choreographer One'
+  },
+  {
+    number: 2,
+    en: 'Petals in the Wind',
+    zh: '风中花瓣',
+    school: 'Pink Ballet Studio',
+    level: 'Grade 1–2',
+    choreographer: 'Choreographer Two'
+  },
+  {
+    number: 3,
+    en: 'Little Waltz',
+    zh: '小圆舞曲',
+    school: 'Victoria Dance Arts',
+    level: 'Grade 3–4',
+    choreographer: 'Choreographer Three'
+  },
+  {
+    number: 4,
+    en: 'Garden of Dreams',
+    zh: '梦之花园',
+    school: 'Pink Ballet Studio',
+    level: 'Grade 2–3',
+    choreographer: 'Choreographer Four'
+  },
+  {
+    number: 5,
+    en: 'Awakening',
+    zh: '初醒',
+    school: 'Victoria Dance Arts',
+    level: 'Grade 5–6',
+    choreographer: 'Choreographer Five'
+  },
+  {
+    number: 6,
+    en: 'Bloom',
+    zh: '绽放',
+    school: 'Pink Ballet Studio',
+    level: 'Advanced',
+    choreographer: 'Choreographer Six'
+  },
+  {
+    number: 7,
+    en: 'Sunlit Steps',
+    zh: '日光之舞',
+    school: 'Victoria Dance Arts',
+    level: 'Grade 1–2',
+    choreographer: 'Choreographer Seven'
+  },
+  {
+    number: 8,
+    en: 'Sea Glass',
+    zh: '海之琉璃',
+    school: 'Victoria Dance Arts',
+    level: 'Grade 4–5',
+    choreographer: 'Choreographer Eight'
+  },
+  {
+    number: 9,
+    en: 'Radiance',
+    zh: '光芒',
+    school: 'Pink Ballet Studio',
+    level: 'Grade 3–4',
+    choreographer: 'Choreographer Nine'
+  },
+  {
+    number: 10,
+    en: 'Midsummer Joy',
+    zh: '盛夏之喜',
+    school: 'Victoria Dance Arts',
+    level: 'Grade 2–3',
+    choreographer: 'Choreographer Ten'
+  },
+  {
+    number: 11,
+    en: 'Azure',
+    zh: '蔚蓝',
+    school: 'Pink Ballet Studio',
+    level: 'Grade 5–6',
+    choreographer: 'Choreographer Eleven'
+  },
+  {
+    number: 12,
+    en: 'Golden Hour',
+    zh: '金色时刻',
+    school: 'Pink Ballet Studio',
+    level: 'Advanced',
+    choreographer: 'Choreographer Twelve'
+  },
+  {
+    number: 13,
+    en: 'Turning Leaves',
+    zh: '叶落旋舞',
+    school: 'Victoria Dance Arts',
+    level: 'Grade 3–4',
+    choreographer: 'Choreographer Thirteen'
+  },
+  {
+    number: 14,
+    en: 'Harvest Moon',
+    zh: '秋月',
+    school: 'Pink Ballet Studio',
+    level: 'Grade 4–5',
+    choreographer: 'Choreographer Fourteen'
+  },
+  {
+    number: 15,
+    en: 'Ember',
+    zh: '余烬',
+    school: 'Victoria Dance Arts',
+    level: 'Advanced',
+    choreographer: 'Choreographer Fifteen'
+  },
+  {
+    number: 16,
+    en: 'Amber Waltz',
+    zh: '琥珀圆舞曲',
+    school: 'Pink Ballet Studio',
+    level: 'Grade 1–2',
+    choreographer: 'Choreographer Sixteen'
+  },
+  {
+    number: 17,
+    en: 'Passing Seasons',
+    zh: '流转之季',
+    school: 'Victoria Dance Arts',
+    level: 'Grade 5–6',
+    choreographer: 'Choreographer Seventeen'
+  },
+  {
+    number: 18,
+    en: 'Russet',
+    zh: '赭红',
+    school: 'Pink Ballet Studio',
+    level: 'Grade 2–3',
+    choreographer: 'Choreographer Eighteen'
+  },
+  {
+    number: 19,
+    en: 'Snowfall',
+    zh: '初雪',
+    school: 'Victoria Dance Arts',
+    level: 'Grade 1–2',
+    choreographer: 'Choreographer Nineteen'
+  },
+  {
+    number: 20,
+    en: 'Stillness',
+    zh: '静',
+    school: 'Pink Ballet Studio',
+    level: 'Grade 4–5',
+    choreographer: 'Choreographer Twenty'
+  },
+  {
+    number: 21,
+    en: 'Crystal Waltz',
+    zh: '水晶圆舞曲',
+    school: 'Victoria Dance Arts',
+    level: 'Grade 3–4',
+    choreographer: 'Choreographer Twenty-One'
+  },
+  {
+    number: 22,
+    en: 'Winter Sky',
+    zh: '冬日之空',
+    school: 'Pink Ballet Studio',
+    level: 'Grade 5–6',
+    choreographer: 'Choreographer Twenty-Two'
+  },
+  {
+    number: 23,
+    en: 'Quiet Stars',
+    zh: '寂星',
+    school: 'Victoria Dance Arts',
+    level: 'Advanced',
+    choreographer: 'Choreographer Twenty-Three'
+  },
+  {
+    number: 24,
+    en: 'Grace in Motion',
+    zh: '动中之恩',
+    school: 'Pink Ballet Studio',
+    level: 'Grade 2–3',
+    choreographer: 'Choreographer Twenty-Four'
+  }
+];
 
 const credits = [
   ['Artistic Direction · 艺术总监', 'Name Placeholder'],
@@ -54,41 +230,50 @@ const credits = [
 const choreographerGrid = document.querySelector('#choreographer-grid');
 choreographerGrid.innerHTML = choreographers.map((c, i) => `
   <article class="profile-card">
-    <div class="profile-photo watercolor-frame"><span>Portrait ${i+1}<br>照片</span></div>
-    <h3><span class="en">${c.name}</span><br><span class="zh" lang="zh-Hans">${c.zh}</span></h3>
-    <p class="role">${c.role}</p>
-    <p class="en">Short biography placeholder. Add training, teaching experience and creative interests.</p>
-    <p class="zh" lang="zh-Hans">简短个人介绍示意文字，可加入学习背景、教学经验与创作方向。</p>
+    <div class="profile-photo photo-placeholder"><span>Portrait ${i + 1}<br>照片</span></div>
+    <div class="profile-copy">
+      <p class="profile-no">${String(i + 1).padStart(2, '0')}</p>
+      <h3><span class="en">${c.name}</span><span class="zh" lang="zh-Hans">${c.zh}</span></h3>
+      <p class="role">${c.role}</p>
+      <p class="en">Short biography placeholder. Add training, teaching experience and creative interests.</p>
+      <p class="zh" lang="zh-Hans">简短个人介绍示意文字，可加入学习背景、教学经验与创作方向。</p>
+    </div>
   </article>
 `).join('');
 
 const programmeGrid = document.querySelector('#programme-grid');
 programmeGrid.innerHTML = dances.map(d => `
-  <article class="dance-card ${d.season}-card" data-season="${d.season}" data-index="${d.number - 1}" data-season-mark="${seasonInfo[d.season].mark}" tabindex="0" role="button" aria-label="Open details for ${d.en}">
-    <span class="num">${String(d.number).padStart(2,'0')} · ${seasonInfo[d.season].label}</span>
-    <h3><span class="en">${d.en}</span> <span class="zh zh-title" lang="zh-Hans">${d.zh}</span></h3>
-    <p class="meta">${d.school}<br>${d.level}</p>
-    <span class="card-arrow" aria-hidden="true">›</span>
-  </article>
+  <button class="programme-row" data-index="${d.number - 1}" type="button" aria-label="Open details for dance ${d.number}: ${d.en}">
+    <span class="programme-number">${String(d.number).padStart(2, '0')}</span>
+    <span class="programme-info">
+      <span class="programme-title"><span class="en">${d.en}</span><span class="zh" lang="zh-Hans">${d.zh}</span></span>
+      <span class="programme-meta">${d.school} · ${d.level}</span>
+    </span>
+    <span class="programme-arrow" aria-hidden="true">↗</span>
+  </button>
 `).join('');
 
 const galleryGrid = document.querySelector('#gallery-grid');
 galleryGrid.innerHTML = dances.map((d, i) => `
-  <article class="gallery-card" data-index="${i}" tabindex="0" role="button" aria-label="Open details for ${d.en}">
-    <div class="gallery-photo watercolor-frame"><span>Group photo ${String(i+1).padStart(2,'0')}<br>舞者合照</span></div>
-    <div class="caption">
+  <button class="gallery-card" data-index="${i}" type="button" aria-label="Open dancer details for dance ${d.number}: ${d.en}">
+    <span class="gallery-photo photo-placeholder"><span>Group photo<br>舞者合照</span><b>${String(d.number).padStart(2, '0')}</b></span>
+    <span class="gallery-caption">
       <strong><span class="en">${d.en}</span><span class="zh" lang="zh-Hans">${d.zh}</span></strong>
-      <span>${d.school}</span>
-    </div>
-  </article>
+      <small>${d.school}</small>
+    </span>
+  </button>
 `).join('');
+
+// const creditsGrid = document.querySelector('#credits-grid');
+// creditsGrid.innerHTML = credits.map(([role, name], i) => `
+//   <div class="credit-item"><span>${String(i + 1).padStart(2, '0')}</span><div><small>${role}</small><strong>${name}</strong></div></div>
+// `).join('');
 
 const creditsGrid = document.querySelector('#credits-grid');
 creditsGrid.innerHTML = credits.map(([role, name]) => `
   <div class="credit-item"><span>${role}</span><strong>${name}</strong></div>
 `).join('');
 
-// Language modes
 const languageButtons = document.querySelectorAll('[data-mode]');
 languageButtons.forEach(button => {
   button.addEventListener('click', () => {
@@ -97,65 +282,38 @@ languageButtons.forEach(button => {
   });
 });
 
-// Mobile navigation
 const menuToggle = document.querySelector('.menu-toggle');
-const nav = document.querySelector('.main-nav');
+const mobileMenu = document.querySelector('.mobile-menu');
 const setMenuOpen = (open) => {
-  nav.classList.toggle('open', open);
-  document.body.classList.toggle('nav-open', open);
+  mobileMenu.classList.toggle('open', open);
   menuToggle.setAttribute('aria-expanded', String(open));
+  menuToggle.textContent = open ? '×' : '☰';
 };
-menuToggle.addEventListener('click', () => setMenuOpen(!nav.classList.contains('open')));
-nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => setMenuOpen(false)));
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') {
-    setMenuOpen(false);
-    if (dialog.open) dialog.close();
-  }
-});
+menuToggle.addEventListener('click', () => setMenuOpen(!mobileMenu.classList.contains('open')));
+mobileMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => setMenuOpen(false)));
 
-// Programme filter
-const filterButtons = document.querySelectorAll('[data-filter]');
-filterButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    filterButtons.forEach(b => b.classList.toggle('active', b === button));
-    document.querySelectorAll('.dance-card').forEach(card => {
-      const show = button.dataset.filter === 'all' || card.dataset.season === button.dataset.filter;
-      card.classList.toggle('hidden', !show);
-    });
-  });
-});
-
-// Dance detail dialog
 const dialog = document.querySelector('#dance-dialog');
 const openDance = (index) => {
   const d = dances[index];
-  dialog.querySelector('.dialog-number').textContent = `Dance ${String(d.number).padStart(2,'0')} · ${seasonInfo[d.season].label}`;
+  dialog.querySelector('.dialog-number').textContent = `Dance ${String(d.number).padStart(2, '0')} · 节目 ${String(d.number).padStart(2, '0')}`;
   dialog.querySelector('.dialog-title').textContent = d.en;
   dialog.querySelector('.dialog-subtitle').textContent = d.zh;
-  dialog.querySelector('.dialog-meta').innerHTML = `${d.school}<br>${d.level}<br>Choreography · 编舞: ${d.choreographer}`;
+  dialog.querySelector('.dialog-meta').innerHTML = `
+    <p><small>School · 学校</small><strong>${d.school}</strong></p>
+    <p><small>Level · 级别</small><strong>${d.level}</strong></p>
+    <p><small>Choreography · 编舞</small><strong>${d.choreographer}</strong></p>`;
   dialog.showModal();
 };
 
-document.querySelectorAll('.dance-card').forEach(card => {
-  card.addEventListener('click', () => openDance(Number(card.dataset.index)));
-  card.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault();
-      openDance(Number(card.dataset.index));
-    }
-  });
+document.querySelectorAll('[data-index]').forEach(item => {
+  item.addEventListener('click', () => openDance(Number(item.dataset.index)));
 });
-document.querySelectorAll('.gallery-card').forEach(card => {
-  card.addEventListener('click', () => openDance(Number(card.dataset.index)));
-  card.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault();
-      openDance(Number(card.dataset.index));
-    }
-  });
-});
+
 dialog.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
-dialog.addEventListener('click', (event) => {
+dialog.addEventListener('click', event => {
   if (event.target === dialog) dialog.close();
+});
+
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape') setMenuOpen(false);
 });
