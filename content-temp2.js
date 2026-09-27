@@ -404,7 +404,7 @@ window.SITE_CONTENT = {
       photo: "",
       choreographer: "Wong Fook Choon",
       descriptionEn: "",
-      descriptionZh: "",
+      descriptionZh: "离乡背井，骨肉分离。",
       dancers: ["Alicia Chin Ying Yi", "Belle Fun Le Xin", "Cheen May Rou", "Heng Xiang Ting", "Loke Yen Li", "Ng Zhi Han", "Poon Ee Ann", "Tan Kay Yee"]
     }
   ],
