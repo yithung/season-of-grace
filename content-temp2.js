@@ -196,7 +196,7 @@ window.SITE_CONTENT = {
       choreographer: "",
       descriptionEn: "",
       descriptionZh: "",
-      dancers: ["Abigail Hoe Yan Mei", "Angie Goh Ern Qi", "Chin Thong Leng", "Clarisse Tan Qian Yu", "Elle Fun Le Yue", "Elyse Phang Yu Ly", "Lai Xin Ru", "Lee Jia Rong", "Loo Yi Ler", "Nur Adresia Binti Alif Firdaus", "Wang Shiwen", "Yang Zoey"]
+      dancers: ["Agnes Ng Yue Xin", "Anya Joy Isaacs", "Chong Chen Mii", "Choo Qiao Er", "Elise Tan Qian Tung", "Elyse Phang Yu Ly", "Jocelyn Lim Kai Xin", "Lai Xin Ru", "Lee Jia Yi", "Sophie Tee Wei Jyn", "Tan Ling Huey", "Thulaasi Nithyanandan", "Wong Sze Yhu", "Wong Yh Gwyn"]
     },
 
     {
@@ -393,7 +393,7 @@ window.SITE_CONTENT = {
       choreographer: "",
       descriptionEn: "",
       descriptionZh: "",
-      dancers: ["Agnes Ng Yue Xin", "Anya Joy Isaacs", "Chong Chen Mii", "Choo Qiao Er", "Elise Tan Qian Tung", "Elyse Phang Yu Ly", "Jocelyn Lim Kai Xin", "Lai Xin Ru", "Lee Jia Yi", "Sophie Tee Wei Jyn", "Tan Ling Huey", "Thulaasi Nithyanandan", "Wong Sze Yhu", "Wong Yh Gwyn"]
+      dancers: ["Abigail Hoe Yan Mei", "Angie Goh Ern Qi", "Chin Thong Leng", "Clarisse Tan Qian Yu", "Elle Fun Le Yue", "Elyse Phang Yu Ly", "Lai Xin Ru", "Lee Jia Rong", "Loo Yi Ler", "Nur Adresia Binti Alif Firdaus", "Wang Shiwen", "Yang Zoey"]
     },
 
     {
