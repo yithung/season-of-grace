@@ -78,7 +78,7 @@ Season of Grace 因 Agapé Music & Ballet Studio、Victoria Dance Arts 与 Pink 
 
 亲爱的同学们，愿你们带着自信、喜悦与优雅踏上舞台，珍惜每一个瞬间，彼此支持，让你们对舞蹈的热爱尽情绽放。
 
-感谢各位今天与我们共度这场特别的庆典。愿 **《Season of Grace》** 为大家带来精彩的演出、美好的回忆，以及一段值得珍藏的时光。
+感谢各位今天与我们共度这场特别的庆典。愿 Season of Grace 为大家带来精彩的演出、美好的回忆，以及一段值得珍藏的时光。
 
 祝大家观赏愉快！
 `  
