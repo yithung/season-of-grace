@@ -50,38 +50,52 @@ window.SITE_CONTENT = {
   ],
 
   directorMessage: {
-    en: `Season of Grace is a celebration of growth, learning, and becoming.
+    en: `Dear Ladies and Gentlemen, 
 
-    This year, three academies come together through a shared love for dance and education, bringing different teaching philosophies, cultures, and dance forms onto one stage. Every piece has its own voice and colour, just as every child has their own rhythm of growth.
-    
-    Some are taking their very first steps. Some are discovering confidence. Others are ready to step onto a bigger stage. Along the way, they gain more than dance skills — they learn perseverance, expression, confidence, and the courage to face new challenges.
-    
-    There is no single way to grow, and no single way to bloom.
-    
-    May every step, every smile, and every round of applause become a treasured part of their journey.`,
-    zh: `Season of Grace，寓意着成长、学习与绽放的季节。
+    It is our great pleasure to welcome you to our Season of Grace Concert.
 
-    这一次，三间学院因对舞蹈与教育的热爱相聚，将不同的教学理念、文化与舞蹈形式带到同一个舞台。每一个作品，都有属于自己的语言与色彩；每一个孩子，也有属于自己的成长节奏。
+Today, we celebrate our students’ talent, dedication, and passion for the performing arts. We are proud to see them come together to share their hard work, creativity, and love for dance on stage.
 
-    有人正在踏出第一步，有人在建立自信，也有人正勇敢走向更大的舞台。一路上，他们收获的不只是舞蹈技巧，更有坚持、表达、自信，以及面对挑战的勇气。
+This special occasion is made even more meaningful through the collaboration of Agapé Music & Ballet Studio, Victoria Dance Arts, and Pink Ballet Studio, bringing together our students, teachers, and dance communities through our shared love of the arts.
 
-    成长没有唯一的方式，绽放也不只有一种模样。
+Our heartfelt thanks to all our teachers, choreographers, staff, parents, and students for your dedication, encouragement, and support. Every performance today is the result of countless hours of practice, teamwork, and perseverance.
 
-    愿每一个舞步与掌声，都成为他们成长旅程中珍贵的一刻。`  
+To our students, step onto the stage with confidence, joy, and grace. Cherish every moment, support one another, and let your passion shine.
+
+Thank you for joining us in this special celebration. May Season of Grace create beautiful performances, wonderful memories, and a meaningful occasion for us all to remember.
+
+Enjoy the show!
+    `,
+    zh: `尊敬的女士们、先生们：
+
+我们非常荣幸地欢迎各位莅临 Season of Grace 舞蹈汇演。
+
+今天，我们共同庆祝学生们在表演艺术中展现出的才华、努力与热忱。我们很高兴看到三所学校的学生齐聚舞台，分享他们的付出、创意，以及对舞蹈的热爱。
+
+Season of Grace 因 Agapé Music & Ballet Studio、Victoria Dance Arts 与 Pink Ballet Studio 三校之间的美好合作而更具意义。在这个特别的日子里，让我们的学生、老师与舞蹈社群相聚一堂，以共同的热爱培育年轻舞者，并通过艺术启发他们成长，是一件令人喜悦的事。
+
+我们衷心感谢所有老师、编舞老师、工作人员、家长与学生的付出、鼓励与支持。今天每一支舞蹈的背后，都凝聚了无数小时的练习、团队合作与坚持。
+
+亲爱的同学们，愿你们带着自信、喜悦与优雅踏上舞台，珍惜每一个瞬间，彼此支持，让你们对舞蹈的热爱尽情绽放。
+
+感谢各位今天与我们共度这场特别的庆典。愿 **《Season of Grace》** 为大家带来精彩的演出、美好的回忆，以及一段值得珍藏的时光。
+
+祝大家观赏愉快！
+`  
   },
 
   choreographers: [
-    { name: "Amy Tang", photo: "assets/choreo/amy.png" },
-    { name: "Celine Ko", photo: "assets/choreo/celine.png" },
-    { name: "James Kan", photo: "assets/choreo/james.png" },
-    { name: "Justine Lu", photo: "assets/choreo/justine.png" },
-    { name: "Lim Chia Shian", photo: "assets/choreo/lim.png" },
-    { name: "Mio Lee", photo: "assets/choreo/mio.png" },
-    { name: "Natalie Hon", photo: "assets/choreo/natalie.png" },
-    { name: "Shin Rou", photo: "assets/choreo/shin-rou.png" },
-    { name: "Tan Lan Jong", photo: "assets/choreo/tan.png" }, 
-    { name: "Ten Hui Qi", photo: "assets/choreo/ten.png" }, 
-    { name: "Wong Fook Choon", photo: "assets/choreo/wong.png" }
+    { name: "Amy<br>Tang", photo: "assets/choreo/amy.png" },
+    { name: "Celine<br>Ko", photo: "assets/choreo/celine.png" },
+    { name: "James<br>Kan", photo: "assets/choreo/james.png" },
+    { name: "Justine<br>Lu", photo: "assets/choreo/justine.png" },
+    { name: "Lim<br>Chia Shian", photo: "assets/choreo/lim.png" },
+    { name: "Mio<br>Lee", photo: "assets/choreo/mio.png" },
+    { name: "Natalie<br>Hon", photo: "assets/choreo/natalie.png" },
+    { name: "Yip<br>Shin Rou", photo: "assets/choreo/shin-rou.png" },
+    { name: "Tan<br>Lan Jong", photo: "assets/choreo/tan.png" }, 
+    { name: "Ten<br>Hui Qi", photo: "assets/choreo/ten.png" }, 
+    { name: "Wong<br>Fook Choon", photo: "assets/choreo/wong.png" }
   ],
 
   /*
@@ -109,9 +123,9 @@ window.SITE_CONTENT = {
       titleZh: "小海盗",
       school: "agape",
       photo: "",
-      choreographer: "",
-      descriptionEn: "",
-      descriptionZh: "",
+      choreographer: "Mio Lee",
+      descriptionEn: "A group of little pirates sails across the sea in search of treasure. After an exciting adventure, they find it and celebrate together.",
+      descriptionZh: "一群小海盗扬帆出海寻找宝藏。经过一番探索，他们找到宝藏并开心庆祝。",
       dancers: ["Abigail Hoe Yan Mei", "Angelyn Toh Zhi Xin", "Choe Joy Ern", "Erin Hiew Shuet Peng", "Fong Sze Kei", "Loo Yi Ler", "Ng Ka Hey", "Pang Yu Sin", "Seline Wong Mei Yan", "Wang Shiwen", "Yang Zoey"]
     },
 
@@ -144,7 +158,7 @@ window.SITE_CONTENT = {
       titleEn: "Mushroom Waltz",
       titleZh: "蘑菇华尔兹",
       school: "pink",
-      photo: "",
+      photo: "assets/dance/mushroom.png",
       choreographer: "Shin Rou",
       descriptionEn: "",
       descriptionZh: "",
@@ -180,7 +194,7 @@ window.SITE_CONTENT = {
       titleEn: "Enchanted Grace",
       titleZh: "幻境之雅",
       school: "pink",
-      photo: "",
+      photo: "assets/dance/enchanted.png",
       choreographer: "",
       descriptionEn: "",
       descriptionZh: "",
@@ -204,7 +218,7 @@ window.SITE_CONTENT = {
       titleEn: "Ukrainian Festivity",
       titleZh: "乌克兰庆典",
       school: "pink",
-      photo: "",
+      photo: "assets/dance/ukranian.png",
       choreographer: "",
       descriptionEn: "",
       descriptionZh: "",
@@ -229,7 +243,7 @@ window.SITE_CONTENT = {
       titleEn: "Whispers of the Woods",
       titleZh: "森语",
       school: "pink",
-      photo: "",
+      photo: "assets/dance/whispers-woods.png",
       choreographer: "",
       descriptionEn: "",
       descriptionZh: "",
@@ -281,7 +295,7 @@ window.SITE_CONTENT = {
       titleEn: "Feur de Printemps",
       titleZh: "春绽",
       school: "pink",
-      photo: "",
+      photo: "assets/dance/feur.png",
       choreographer: "",
       descriptionEn: "",
       descriptionZh: "",
@@ -305,7 +319,7 @@ window.SITE_CONTENT = {
       titleEn: "Loop",
       titleZh: "循环",
       school: "pink",
-      photo: "",
+      photo: "assets/dance/loop.png",
       choreographer: "",
       descriptionEn: "",
       descriptionZh: "",
@@ -377,7 +391,7 @@ window.SITE_CONTENT = {
       titleEn: "Speaking of Truth",
       titleZh: "需要勇气去面对",
       school: "pink",
-      photo: "",
+      photo: "assets/dance/truth.png",
       choreographer: "",
       descriptionEn: "",
       descriptionZh: "",
@@ -409,17 +423,22 @@ window.SITE_CONTENT = {
     }
   ],
 
-  // Behind-the-scenes staff — retained from the earlier version.
+  // Behind-the-scenes staff 
   credits: [
-    { role: "Artistic Direction · 艺术总监", name: "Name Placeholder" },
-    { role: "Production Manager · 制作经理", name: "Name Placeholder" },
-    { role: "Stage Manager · 舞台总监", name: "Name Placeholder" },
-    { role: "Assistant Stage Manager · 舞台副总监", name: "Name Placeholder" },
-    { role: "Lighting · 灯光", name: "Name Placeholder" },
-    { role: "Sound · 音响", name: "Name Placeholder" },
-    { role: "Photography · 摄影", name: "Name Placeholder" },
-    { role: "Graphic · 平面设计", name: "Name Placeholder" },
-    { role: "Website · 网站", name: "Gan Yi Thung & Cherry Phang" },
-    { role: "Special Thanks · 特别鸣谢", name: "Name / Organisation" }
+    { role: "Production · 制作", name: "Agapé Music & Ballet School<br>Pink Ballet Studio<br>Victoria Dance Arts" },
+    { role: "Stage Manager · 舞台总监", name: "Kenzo de Tuan" },
+    { role: "Emcee · 司仪", name: "Yip Shin Rou" },
+    { role: "Front of House Crew · 前台工作人员", name: "Tan Hooi Hsien" },
+    { role: "Food & Beverage · 餐饮", name: "Tan Hooi Theng" },
+    { role: "Backstage Crew · 后台工作人员", name: "Sunny Chan" },
+    { role: "Visual Designer · 视觉设计", name: "Cassie Wong" },
+    { role: "Graphic Designer · 平面设计", name: "Lim Chia Hui<br>Wong Yu Gene" },
+    { role: "Music Editor · 音乐编辑", name: "CCK Sound Design" },
+    { role: "Sound Operator · 音响操作", name: "Hang Wen Chin" },
+    { role: "Lighting Designer · 灯光设计", name: "Tag Nicxon Production" },
+    { role: "Photographers · 摄影", name: "Chang Hin Wai Sang<br>James Quah" },
+    { role: "Videographers · 录像", name: "NTC Video Production" },
+    { role: "Website · 网站", name: "Gan Yi Thung<br>Cherry Phang" },
+    { role: "Special Thanks · 特别鸣谢", name: "Ashley Wong, Chai Yu Xuan, Chen Fun Yen, Chin Yun Fei, Chung Jian Lun, Gan Xi Li, Jacqueline Lim, Lau Sei Wai, Michael Thong, Ng Hui Xin, Nga Vee Jane, Poon Se Yin, Qwilynn Cheong, Sharon Wong, Susan Wua, Tan Hooi Ping, Tan Yi Sun, Willis Voon, Wong Yu Gene, Yip Shin Ee" }
   ]
 };
