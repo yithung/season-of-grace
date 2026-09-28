@@ -8,7 +8,7 @@
   <title>Season of Grace — Digital Programme</title>
   <link rel="stylesheet" href="styles-temp2.css" />
 </head>
-<body data-lang="bi">
+<body data-lang="bi" id="top">
   <header class="site-header" id="top">
     <a class="brand" href="#top" aria-label="Season of Grace home">
       <span class="brand-seal">动</span>
@@ -55,7 +55,7 @@
       </div>
 
       <figure class="poster-card" id="poster">
-        <img src="assets/poster.png" alt="Season of Grace concert poster" />
+        <img src="assets/poster.jpg" alt="Season of Grace concert poster" />
         <!-- <figcaption>Concert poster · 演出海报</figcaption> -->
       </figure>
     </section>
@@ -67,6 +67,98 @@
       <a href="#team"><b>04</b><span><span class="en">Behind the scenes</span><span class="zh" lang="zh-Hans">幕后团队</span></span></a>
     </section>
 
+    <section class="section about" id="about">
+      <header class="section-head">
+        <h2>
+          <span class="en">The Story Behind Season of Grace</span>
+          <span class="zh" lang="zh-Hans">主题缘起</span>
+        </h2>
+      </header>
+
+      <div class="about-carousel">
+        <div class="about-stack" id="about-stack">
+
+          <!-- <button class="about-card" type="button">
+            <img src="assets/about/about-01.png" alt="Season of Grace story card 1">
+          </button>
+
+          <button class="about-card" type="button">
+            <img src="assets/about/about-02.png" alt="Season of Grace story card 2">
+          </button>
+
+          <button class="about-card" type="button">
+            <img src="assets/about/about-03.png" alt="Season of Grace story card 3">
+          </button>
+
+          <button class="about-card" type="button">
+            <img src="assets/about/about-04.png" alt="Season of Grace story card 4">
+          </button> -->
+
+          <button class="about-card" type="button">
+            <picture>
+              <source
+                media="(min-width: 761px)"
+                srcset="assets/about/about-01-horizontal.png"
+              >
+              <img
+                src="assets/about/about-01.png"
+                alt="Season of Grace story card 1"
+              >
+            </picture>
+          </button>
+
+          <button class="about-card" type="button">
+            <picture>
+              <source
+                media="(min-width: 761px)"
+                srcset="assets/about/about-02-horizontal.png"
+              >
+              <img
+                src="assets/about/about-02.png"
+                alt="Season of Grace story card 2"
+              >
+            </picture>
+          </button>
+
+          <button class="about-card" type="button">
+            <picture>
+              <source
+                media="(min-width: 761px)"
+                srcset="assets/about/about-03-horizontal.png"
+              >
+              <img
+                src="assets/about/about-03.png"
+                alt="Season of Grace story card 3"
+              >
+            </picture>
+          </button>
+
+          <button class="about-card" type="button">
+            <picture>
+              <source
+                media="(min-width: 761px)"
+                srcset="assets/about/about-04-horizontal.png"
+              >
+              <img
+                src="assets/about/about-01.png"
+                alt="Season of Grace story card 4"
+              >
+            </picture>
+          </button>
+
+        </div>
+
+        <div class="about-carousel-footer">
+          <span class="about-swipe-hint">
+          </span>
+
+          <span class="about-counter">
+            <strong id="about-current">1</strong> / 4
+          </span>
+        </div>
+      </div>
+    </section>
+
     <section class="section directors" id="directors">
       <header class="section-head">
         <p class="section-kicker">/ 01 /</p>
@@ -74,39 +166,34 @@
       </header>
 
       <div class="director-portraits" id="director-grid"></div>
-
-      <article class="shared-message">
+      <article class="shared-message" id="director-message">
         <div class="message-mark" aria-hidden="true">“</div>
-        <div class="message-copy">
-          <div class="en" id="director-message-en"></div>
-          <div class="zh" id="director-message-zh" lang="zh-Hans"></div>
+
+        <div class="message-collapse" id="director-message-collapse">
+          <div class="message-copy">
+
+            <div class="message-language en">
+              <div id="director-message-en"></div>
+            </div>
+
+            <div class="message-language zh" lang="zh-Hans">
+              <div id="director-message-zh"></div>
+            </div>
+
+          </div>
         </div>
 
-        <div class="message-closing">
-          <span class="closing-line">This is their season.</span>
-          <span class="closing-line">This is their journey.</span>
-          <span class="closing-highlight">This is our <em>Season of Grace.</em></span>
-        </div>
+        <button
+          class="message-read-more"
+          id="message-read-more"
+          type="button"
+          aria-expanded="false"
+        >
+          <span class="en">Read more</span>
+          <span class="zh" lang="zh-Hans">阅读全文</span>
+          <span class="read-more-arrow" aria-hidden="true">↓</span>
+        </button>
       </article>
-      <!-- <article class="shared-message">
-        <div class="message-copy">
-          <div class="message-language en">
-            <p class="message-label">Directors' Message</p>
-            <p id="director-message-en"></p>
-          </div>
-
-          <div class="message-language zh" lang="zh-Hans">
-            <p class="message-label">院长们的话</p>
-            <p id="director-message-zh"></p>
-          </div>
-
-          <div class="message-closing">
-            <strong>This is their season.</strong>
-            <strong>This is their journey.</strong>
-            <strong>This is our <em>Season of Grace.</em></strong>
-          </div>
-        </div>
-      </article> -->
     </section>
 
     <section class="section choreographers" id="choreographers">
@@ -124,22 +211,65 @@
 
     <section class="section programme" id="programme">
       <div class="programme-wash" aria-hidden="true"></div>
+
+      <!-- Programme Order -->
       <header class="section-head programme-head">
         <p class="section-kicker">/ 03 /</p>
         <div class="programme-title-row">
-          <h2><span class="en">Programme Order</span><span class="zh" lang="zh-Hans">节目表</span></h2>
+          <h2>
+            <span class="en">Programme Order</span>
+            <span class="zh" lang="zh-Hans">节目表</span>
+          </h2>
         </div>
-        <p class="section-intro en">Tap a dance to view the full photo and dancer names.</p>
-        <p class="section-intro zh" lang="zh-Hans">点击节目可查看完整照片与舞者名单。</p>
       </header>
 
-      <div class="programme-grid" id="programme-grid" aria-label="Programme running order"></div>
-    </section>
+      <!-- <div class="programme-order-image">
+        <img
+          src="assets/order-vertical.png"
+          alt="Season of Grace programme order, dances 1 to 26"
+        >
+      </div> -->
 
+      <div class="programme-order-image">
+        <picture>
+          <source
+            media="(min-width: 761px)"
+            srcset="assets/order-horizontal.png"
+          >
+
+          <img
+            src="assets/order-vertical.png"
+            alt="Season of Grace programme order, dances 1 to 26"
+          >
+        </picture>
+      </div>
+
+      <!-- Programme Details -->
+      <div class="section-head programme-details-head">
+        <div class="programme-title-row">
+        <h2>
+          <span class="en">Programme Details</span>
+          <span class="zh" lang="zh-Hans">节目详情</span>
+        </h2>
+
+        <p class="section-intro en">
+          Tap a dance to view its details.
+        </p>
+        <p class="section-intro zh" lang="zh-Hans">
+          点击节目查看舞蹈详情。
+        </p>
+      </div>
+
+      <div
+        class="programme-grid"
+        id="programme-grid"
+        aria-label="Programme details"
+      ></div>
+    </section>
     <section class="section team" id="team">
       <header class="section-head compact">
         <p class="section-kicker">/ 04 /</p>
-        <h2><span class="en">Behind the curtain</span><span class="zh" lang="zh-Hans">舞台背后</span></h2>
+        <h2><span class="en">Production Team</span><span class="zh" lang="zh-Hans">舞台背后</span></h2>
       </header>
       <div class="credits-grid" id="credits-grid"></div>
     </section>
@@ -155,16 +285,15 @@
         <p class="en">Thank you for dancing through the seasons with us.</p>
         <p class="zh" lang="zh-Hans">感谢与我们共舞四季。</p>
       </div>
-      <a
+      <a href="#top">Back to top · 回到顶部 ↑</a>
+      <!-- <a
         class="highlights-link"
         href="YOUR_GOOGLE_DRIVE_LINK"
         target="_blank"
         rel="noopener noreferrer"
       >
         <span class="en">Behind the Scenes · 精彩花絮 ➚</span>
-        <!-- <span class="zh" lang="zh-Hans">精彩花絮</span>
-        <span aria-hidden="true"> ➚</span> -->
-      </a>
+      </a> -->
     </footer>
   </main>
 
