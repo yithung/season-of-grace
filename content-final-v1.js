@@ -373,7 +373,7 @@ Season of Grace 因 Agapé Music & Ballet School、Pink Ballet Studio 与 Victor
       titleZh: "战争与和平",
       school: "agape",
       photo: "assets/dance/war-peace.png",
-      choreographer: "Wong Fook Choon",
+      choreographer: `Wong Fook Choon, with creative input by the students / 与学生参与创意构思`,
       descriptionEn: "宁为太平犬，莫作战乱人。",
       descriptionZh: "A beggar who sleeps on the floor will always be richer than a man at war.",
       dancers: ["Belle Fun Le Xin", "Alicia Chin Ying Yi", "Chanel Ooi Xuan Rou", "Charmaine Ooi Xuan Min", "Cheen May Rou", "Cheong Xin Yu", "Chew Hao Xuan", "Heng Xiang Ting", "Isabella Tee Yee Rou", "Janelle Phang Zhi Qing", "Lai Yu Tong", "Loke Yen Li", "Lynn Fong Jing Er", "Ng Zhi Han", "Tan Kay Yee"]
@@ -431,21 +431,43 @@ Season of Grace 因 Agapé Music & Ballet School、Pink Ballet Studio 与 Victor
   ],
 
   // Behind-the-scenes staff 
+  // credits: [
+  //   { role: "Production · 制作", name: "Agapé Music & Ballet School<br>Pink Ballet Studio<br>Victoria Dance Arts" },
+  //   { role: "Stage Manager · 舞台总监", name: "Kenzo de Tuan" },
+  //   { role: "Emcee · 司仪", name: "Yip Shin Rou" },
+  //   { role: "Front of House Crew · 前台工作人员", name: "Tan Hooi Hsien" },
+  //   { role: "Food & Beverage · 餐饮", name: "Tan Hooi Theng" },
+  //   { role: "Backstage Crew · 后台工作人员", name: "Sunny Chan" },
+  //   { role: "Visual Designer · 视觉设计", name: "Cassie Wong" },
+  //   { role: "Graphic Designer · 平面设计", name: "Lim Chia Hui<br>Wong Yu Gene" },
+  //   { role: "Music Editor · 音乐编辑", name: "CCK Sound Design" },
+  //   { role: "Sound Operator · 音响操作", name: "Hang Wen Chin" },
+  //   { role: "Lighting Designer · 灯光设计", name: "Tag Nicxon Production" },
+  //   { role: "Photographers · 摄影", name: "Chang Hin Wai Sang<br>James Quah" },
+  //   { role: "Videographers · 录像", name: "NTC Video Production" },
+  //   { role: "Website · 网站", name: "Gan Yi Thung<br>Cherry Phang" },
+  //   { role: "Special Thanks · 特别鸣谢", name: "Ashley Wong, Chai Yu Xuan, Chen Fun Yen, Chin Yun Fei, Chung Jian Lun, Gan Xi Li, Isaac Hoe, Jacqueline Lim, Lau Sei Wai, Michael Thong, Ng Hui Xin, Nga Vee Jane, Poon Se Yin, Qwilynn Cheong, Sharon Wong, Susan Wua, Tan Hooi Ping, Tan Yi Sun, Willis Voon, Wong Yu Gene, Yip Shin Ee" }
+  // ]
   credits: [
     { role: "Production · 制作", name: "Agapé Music & Ballet School<br>Pink Ballet Studio<br>Victoria Dance Arts" },
+    { role: "Artistic Director · 艺术总监", name: "Wong Fook Choon" },
     { role: "Stage Manager · 舞台总监", name: "Kenzo de Tuan" },
     { role: "Emcee · 司仪", name: "Yip Shin Rou" },
-    { role: "Front of House Crew · 前台工作人员", name: "Tan Hooi Hsien" },
-    { role: "Food & Beverage · 餐饮", name: "Tan Hooi Theng" },
-    { role: "Backstage Crew · 后台工作人员", name: "Sunny Chan" },
+    { role: "Stage Supervisor · 舞台监督", name: "Tan Lan Jong<br>Celine Ko" },
+    { role: "Stage Crew · 舞台工作人员", name: "Chen Fun Yen, Poon Se Yin, Willis Voon, Voon Sue Hann" },
+    { role: "Lighting Designer · 灯光设计", name: "Nicxon Tan" },
     { role: "Visual Designer · 视觉设计", name: "Cassie Wong" },
     { role: "Graphic Designer · 平面设计", name: "Lim Chia Hui<br>Wong Yu Gene" },
-    { role: "Music Editor · 音乐编辑", name: "CCK Sound Design" },
+    { role: "Music Editor · 音乐编辑", name: "Chiew Chee Koon" },
     { role: "Sound Operator · 音响操作", name: "Hang Wen Chin" },
-    { role: "Lighting Designer · 灯光设计", name: "Tag Nicxon Production" },
+    { role: "Backstage Crew · 后台工作人员", name: "Sunny Chan, Justine Lu, Natalie Hon, Mio Lee, Lim Chia Shian, Ten Hui Qi, Jacqueline Lim, Wong Szi Ern, Chin Yun Fei, Yip Shin Ee, Ashley Wong" },
+    { role: "Call Stewards · 催场人员", name: "Tan Hooi Ping<br>Gan Xi Li" },
+    { role: "Food & Beverage · 餐饮", name: "Tan Hooi Theng, Chung Jian Lun, Sharon Wong" },
+    { role: "Front of House Supervisor · 前台主管", name: "Tan Hooi Hsien" },
+    { role: "Front of House · 前台工作人员", name: "Tan Yi Sun, Ng Hui Xin, Chai Yu Xuan, Wong Yu Gene, Qwilynn Cheong, Lau Sei Wai, Michael Thong" },
+    { role: "Videographers · 录像", name: "Losel Chauh, Jia Wah Lee, Yu Tian Chuah" },
     { role: "Photographers · 摄影", name: "Chang Hin Wai Sang<br>James Quah" },
-    { role: "Videographers · 录像", name: "NTC Video Production" },
     { role: "Website · 网站", name: "Gan Yi Thung<br>Cherry Phang" },
-    { role: "Special Thanks · 特别鸣谢", name: "Ashley Wong, Chai Yu Xuan, Chen Fun Yen, Chin Yun Fei, Chung Jian Lun, Gan Xi Li, Isaac Hoe, Jacqueline Lim, Lau Sei Wai, Michael Thong, Ng Hui Xin, Nga Vee Jane, Poon Se Yin, Qwilynn Cheong, Sharon Wong, Susan Wua, Tan Hooi Ping, Tan Yi Sun, Willis Voon, Wong Yu Gene, Yip Shin Ee" }
+    { role: "Special Thanks · 特别鸣谢", name: "NTC Video Production, Tag Nicxon Production, Isaac Hoe, Susan Wua, Nga Vee Jane" }
   ]
 };
