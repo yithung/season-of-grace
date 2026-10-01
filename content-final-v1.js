@@ -465,7 +465,7 @@ Season of Grace 因 Agapé Music & Ballet School、Pink Ballet Studio 与 Victor
     { role: "Food & Beverage · 餐饮", name: "Tan Hooi Theng, Chung Jian Lun, Sharon Wong" },
     { role: "Front of House Supervisor · 前台主管", name: "Tan Hooi Hsien" },
     { role: "Front of House · 前台工作人员", name: "Tan Yi Sun, Ng Hui Xin, Chai Yu Xuan, Wong Yu Gene, Qwilynn Cheong, Lau Sei Wai, Michael Thong" },
-    { role: "Videographers · 录像", name: "Losel Chauh, Jia Wah Lee, Yu Tian Chuah" },
+    { role: "Videographers · 录像", name: "Losel Chuah, Jia Wah Lee, Yu Tian Chuah" },
     { role: "Photographers · 摄影", name: "Chang Hin Wai Sang<br>James Quah" },
     { role: "Website · 网站", name: "Gan Yi Thung<br>Cherry Phang" },
     { role: "Special Thanks · 特别鸣谢", name: "NTC Video Production, Tag Nicxon Production, Isaac Hoe, Susan Wua, Nga Vee Jane" }
