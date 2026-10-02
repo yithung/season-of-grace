@@ -453,7 +453,7 @@ Season of Grace 因 Agapé Music & Ballet School、Pink Ballet Studio 与 Victor
     { role: "Artistic Director · 艺术总监", name: "Wong Fook Choon" },
     { role: "Stage Manager · 舞台总监", name: "Kenzo de Tuan" },
     { role: "Emcee · 司仪", name: "Yip Shin Rou, Hang Wen Chin" },
-    { role: "Stage Supervisor · 舞台监督", name: "Tan Lan Jong, Celine Ko" },
+    { role: "Stage Supervisor · 舞台助理", name: "Tan Lan Jong, Celine Ko" },
     { role: "Stage Crew · 舞台工作人员", name: "Chen Fun Yen, Poon Se Yin, Willis Voon, Voon Sue Hann" },
     { role: "Lighting Designer · 灯光设计", name: "Nicxon Tan" },
     { role: "Visual Designer · 视觉设计", name: "Cassie Wong" },
