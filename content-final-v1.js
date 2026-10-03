@@ -468,6 +468,6 @@ Season of Grace 因 Agapé Music & Ballet School、Pink Ballet Studio 与 Victor
     { role: "Videographers · 录像", name: "Losel Chuah, Jia Wah Lee, Yu Tian Chuah" },
     { role: "Photographers · 摄影", name: "Chang Hin Wai Sang, James Quah" },
     { role: "Website · 网站", name: "Gan Yi Thung, Cherry Phang" },
-    { role: "Special Thanks · 特别鸣谢", name: "NTC Video Production, Tag Nicxon Production, Isaac Hoe, Susan Wua, Nga Vee Jane" }
+    { role: "Special Thanks · 特别鸣谢", name: "NTC Video Production, Tag Nicxon Production, Isaac Hoe, Susan Wua, Nga Vee Jane, D Theatre Techical Team (Adam Wan, Adib Dinie, Fakhrul Aiman)" }
   ]
 };
